@@ -1,0 +1,27 @@
+{
+  "name": "nodejs--assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1abd-oss/nodejs--assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1abd-oss/nodejs--assessment/issues"
+  },
+  "homepage": "https://github.com/1abd-oss/nodejs--assessment#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.22.0",
+    "sequelize": "^6.37.8"
+  }
+}
