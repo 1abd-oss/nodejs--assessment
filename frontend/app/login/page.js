@@ -1,11 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { login } from "@/lib/api";
 import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
+  useEffect(() => {
   document.cookie = "token=YOUR_JWT; path=/";
+}, []);
   const [form, setForm] = useState({ username: "", password: "" });
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
